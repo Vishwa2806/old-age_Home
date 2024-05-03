@@ -69,7 +69,11 @@ body {
 .btn-hover-bg {
     transition: 0.5s;
 }
-
+@media (max-width: 720px) {
+    .text-resize {
+      font-size: 14px; /* Adjust the font size as needed */
+    }
+  }
 .btn-hover-bg:hover {
     background: var(--bs-white) !important;
     color: var(--bs-dark) !important;
